@@ -6,7 +6,7 @@ import org.springframework.data.repository.CrudRepository;
 import java.util.List;
 
 public interface MessageRepository extends CrudRepository<Message, Integer> {
-    List<Message> findByTeg(String teg);
+    List<Message> findByTag(String tag);
     Iterable<Message> findByText(String text);
-    List<Message> findByTextOrTeg(String text, String teg);
+    List<Message> findByTextOrTag(String text, String tag);
 }

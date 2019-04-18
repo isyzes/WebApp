@@ -1,15 +1,21 @@
 package hello.domain;
 
+import org.hibernate.validator.constraints.Length;
+
 import javax.persistence.*;
+import javax.validation.constraints.NotBlank;
 
 @Entity
 public class Message {
     @Id
     @GeneratedValue(strategy= GenerationType.AUTO)
-    private Integer id;
+    private Long id;
 
+    @NotBlank(message = "Please fill the message") // если пустое сообщение то выведиться тест
+    @Length(max = 2048, message = "Message too long")//если длина сообщения превысит 2048 выведиться соббщение
     private String text;
-    private String teg;
+    @Length(max = 255, message = "Message too long")
+    private String tag;
 
     @ManyToOne(fetch = FetchType.EAGER)
     @JoinColumn(name = "user_id")
@@ -20,9 +26,9 @@ public class Message {
     public Message() {
     }
 
-    public Message(String text, String teg, User user) {
+    public Message(String text, String tag, User user) {
         this.text = text;
-        this.teg = teg;
+        this.tag = tag;
         this.author = user;
     }
 
@@ -30,11 +36,11 @@ public class Message {
         return author != null ? author.getUsername() : "none";
     }
 
-    public Integer getId() {
+    public Long getId() {
         return id;
     }
 
-    public void setId(Integer id) {
+    public void setId(Long id) {
         this.id = id;
     }
 
@@ -46,12 +52,12 @@ public class Message {
         this.text = text;
     }
 
-    public String getTeg() {
-        return teg;
+    public String getTag() {
+        return tag;
     }
 
-    public void setTeg(String teg) {
-        this.teg = teg;
+    public void setTeg(String tag) {
+        this.tag = tag;
     }
 
     public User getAuthor() {
