@@ -15,6 +15,7 @@
         Add new message
     </a>
 
+
     <div class="collapse <#if message??>show</#if>" id="collapseExample">
         <div class="form-group mt-3">
             <form method="post" enctype="multipart/form-data">
@@ -30,16 +31,16 @@
                 <div class="form-group">
                     <input type="text" class="form-control"
                            value="<#if message??>${message.tag}</#if>" name="tag" placeholder="Введите Тэг" />
-                    <#if tegError??>
+                    <#if tagError??>
                         <div class="invalid-feedback">
-                            ${tegError}
+                            ${tagError}
                         </div>
                     </#if>
                 </div>
 
                 <div class="form-group">
                     <div class="custom-file">
-                        <input type="file" name="file" class="custom-file-input" id="customFile">
+                        <input type="file" name="file" id="customFile">
                         <label class="custom-file-label" for="customFile">Добавить</label>
                     </div>
                 </div>

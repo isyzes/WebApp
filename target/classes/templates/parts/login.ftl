@@ -16,6 +16,8 @@
             </div>
         </div>
 
+
+
         <div class="form-group row">
             <label class="col-sm-2 col-form-label">Password:</label>
             <div class="col-sm-6">
@@ -29,6 +31,7 @@
                 </#if>
             </div>
         </div>
+
 
         <#if isRegisterForm>
             <div class="form-group row">
@@ -49,13 +52,23 @@
                 <label class="col-sm-2 col-form-label"> Email:</label>
                 <div class="col-sm-6">
                     <input type="email" name="email" value="<#if user??>${user.email}</#if>"
-                           class="form-control ${(emailError??)?string('is-invalid', '')}" placeholder="some@some.com"/>
+                           class="form-control ${(emailError??)?string('is-invalid', '')}"
+                           placeholder="some@some.com"/>
                     <#if emailError??>
                         <div class="invalid-feedback">
                             ${emailError}
                         </div>
                     </#if>
                 </div>
+            </div>
+
+            <div class="col-sm-6">
+                <div class="g-recaptcha" data-sitekey="6LcCGp8UAAAAABZHKKK0cRuxMhjstIHIeGe4PIYx"></div>
+                <#if captchaError??>
+                    <div class="alert alert-danger" role="alert">
+                        ${captchaError}
+                    </div>
+                </#if>
             </div>
         </#if>
         <@t.token_csrf/>

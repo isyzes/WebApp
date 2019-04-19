@@ -80,6 +80,7 @@ public class UserService implements UserDetailsService {
                 .collect(Collectors.toSet());
 
         user.getRoles().clear();
+
         for (String key: form.keySet()) {
             if (roles.contains(key)) {
                 user.getRoles().add(Role.valueOf(key));
@@ -91,23 +92,23 @@ public class UserService implements UserDetailsService {
     public void updateProfile(User user, String password, String email) {
         String userEmail = user.getEmail();
 
-         boolean isEmailChange = (email != null && !email.equals(userEmail)) ||
-                 (userEmail != null && !userEmail.equals(email));
+        boolean isEmailChange = (email != null && !email.equals(userEmail)) ||
+                (userEmail != null && !userEmail.equals(email));
 
-         if (isEmailChange) {
-             user.setEmail(email);
+        if (isEmailChange) {
+            user.setEmail(email);
 
-             if (!StringUtils.isEmpty(email)) {
-                 user.setActivationCode(UUID.randomUUID().toString());
-             }
-         }
+            if (!StringUtils.isEmpty(email)) {
+                user.setActivationCode(UUID.randomUUID().toString());
+            }
+        }
 
-         if (!StringUtils.isEmpty(password)) {
-             user.setPassword(passwordEncoder.encode(password));
-         }
-         userRepository.save(user);
+        if (!StringUtils.isEmpty(password)) {
+            user.setPassword(passwordEncoder.encode(password));
+        }
+        userRepository.save(user);
 
-         if (isEmailChange)
-             sendMessage(user);
+        if (isEmailChange)
+            sendMessage(user);
     }
 }

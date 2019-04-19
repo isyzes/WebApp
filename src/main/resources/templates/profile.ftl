@@ -1,8 +1,9 @@
 <#import "parts/common.ftl" as c>
 <#import "parts/token.ftl" as t>
 
-<h5>${username}</h5>
+
 <@c.page>
+    <h5>${username}</h5>
     ${message?ifExists}
 
     <form method="post">
@@ -25,5 +26,3 @@
     </form>
 
 </@c.page>
-
-

@@ -27,5 +27,4 @@ Hibernate: create table user (id bigint not null, activation_code varchar(255), 
 Hibernate: create table user_role (user_id bigint not null, roles varchar(255)) engine=MyISAM
 Hibernate: alter table message add constraint FKb3y6etti1cfougkdr0qiiemgv foreign key (user_id) references user (id)
 Hibernate: alter table user_role add constraint FK859n2jvi8ivhui0rl0esws6o foreign key (user_id) references user (id)
-
  */

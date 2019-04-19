@@ -56,7 +56,7 @@ public class Message {
         return tag;
     }
 
-    public void setTeg(String tag) {
+    public void setTag(String tag) {
         this.tag = tag;
     }
 

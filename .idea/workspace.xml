@@ -2,30 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1741f068-1df4-4633-b348-737b18b28b96" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/hello/controller/ControllerUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hello/domain/dto/CaptchaResponseDto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hello/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hello/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hello/config/MvcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hello/config/MvcConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/hello/config/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hello/config/WebSecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hello/controller/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hello/controller/MainController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/hello/controller/RegistrationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hello/controller/RegistrationController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/hello/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hello/controller/UserController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/hello/domain/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hello/domain/Message.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/hello/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hello/domain/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/hello/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hello/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/db/migration/V1__Init_DB.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V1__Init_DB.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/db/migration/V2__Add_admin.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V2__Add_admin.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/login.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/login.ftl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/main.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/main.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/parts/common.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/parts/common.ftl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/parts/login.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/parts/login.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/db/migration/V1__Init_DB.sql" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/db/migration/V1__Init_DB.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/db/migration/V2__Add_admin.sql" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/db/migration/V2__Add_admin.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/hello/config/WebSecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hello/config/WebSecurityConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/hello/controller/MainController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hello/controller/MainController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/parts/navbar.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/parts/navbar.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/profile.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/profile.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hello/config/MvcConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hello/config/MvcConfig.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/hello/controller/RegistrationController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hello/controller/RegistrationController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/hello/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hello/controller/UserController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/hello/domain/Message.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hello/domain/Message.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/hello/domain/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hello/domain/User.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/hello/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hello/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/login.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/login.ftl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/templates/main.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/main.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/parts/common.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/parts/common.ftl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/templates/parts/login.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/parts/login.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/parts/navbar.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/parts/navbar.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/profile.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/profile.ftl" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -53,12 +59,17 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/db/migration/V1__Init_DB.sql">
+        <entry file="file://$PROJECT_DIR$/src/main/java/hello/Application.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+            <state relative-caret-position="170">
+              <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#231#232#0" expanded="true" />
+                <element signature="e#293#294#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -75,13 +86,19 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>tag</find>
+      <find>teg</find>
+      <find>isRegisterForm</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/resources/templates/add.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/add.mustache" />
         <option value="$PROJECT_DIR$/src/main/java/hello/GreetingController.java" />
         <option value="$PROJECT_DIR$/src/main/java/hello/User.java" />
@@ -98,40 +115,41 @@
         <option value="$PROJECT_DIR$/src/main/resources/templates/parts/common.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/login.mustache" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/registration.mustache" />
-        <option value="$PROJECT_DIR$/src/main/java/hello/Repository/MessageRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/hello/domain/Role.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/userList.ftl" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/parts/token.ftl" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/userEdit.ftl" />
         <option value="$PROJECT_DIR$/src/main/resources/static/style.css" />
-        <option value="$PROJECT_DIR$/src/main/java/hello/config/MvcConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/parts/common.ftl" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/greeting.ftl" />
         <option value="$PROJECT_DIR$/src/main/java/hello/Repository/UserRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/hello/config/MailConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/login.ftl" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/registration.ftl" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/parts/security.ftl" />
         <option value="$PROJECT_DIR$/src/main/java/hello/service/MailSender.java" />
         <option value="$PROJECT_DIR$/src/main/resources/db.migration/V1__Init_DB.sql" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/parts/navbar.ftl" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/profile.ftl" />
-        <option value="$PROJECT_DIR$/src/main/java/hello/Application.java" />
         <option value="$PROJECT_DIR$/src/main/resources/db/migration/V3__Encode_passwords.sql" />
         <option value="$PROJECT_DIR$/src/main/resources/db/migration/V2__Add_admin.sql" />
         <option value="$PROJECT_DIR$/src/main/java/hello/controller/ControllerUtils.java" />
-        <option value="$PROJECT_DIR$/src/main/java/hello/controller/UserController.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/parts/login.ftl" />
-        <option value="$PROJECT_DIR$/src/main/java/hello/config/WebSecurityConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/java/hello/domain/User.java" />
-        <option value="$PROJECT_DIR$/src/main/java/hello/controller/RegistrationController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/hello/controller/MainController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/hello/service/UserService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/hello/domain/Message.java" />
         <option value="$PROJECT_DIR$/src/main/resources/db/migration/V1__Init_DB.sql" />
+        <option value="$PROJECT_DIR$/src/main/java/hello/Repository/MessageRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/parts/navbar.ftl" />
+        <option value="$PROJECT_DIR$/src/main/java/hello/domain/Message.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/main.ftl" />
+        <option value="$PROJECT_DIR$/src/main/java/hello/service/UserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/hello/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/hello/Application.java" />
+        <option value="$PROJECT_DIR$/src/main/java/hello/domain/User.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/login.ftl" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/profile.ftl" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/registration.ftl" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/userEdit.ftl" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/userList.ftl" />
+        <option value="$PROJECT_DIR$/src/main/java/hello/controller/MainController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/hello/config/MvcConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/hello/domain/dto/CaptchaResponseDto.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/parts/login.ftl" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/parts/common.ftl" />
+        <option value="$PROJECT_DIR$/src/main/java/hello/controller/RegistrationController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/hello/config/WebSecurityConfig.java" />
       </list>
     </option>
   </component>
@@ -142,11 +160,11 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1026" />
-    <option name="y" value="67" />
-    <option name="width" value="888" />
-    <option name="height" value="888" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1092" />
+    <option name="height" value="879" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -156,8 +174,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -191,25 +207,12 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="hello" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="WebApp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebApp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebApp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebApp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="migration" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -222,7 +225,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555591449469" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555673724363" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/db/migration" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
@@ -231,6 +234,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -301,18 +305,29 @@
       <workItem from="1555391205267" duration="22402000" />
       <workItem from="1555434951325" duration="3808000" />
       <workItem from="1555478058996" duration="17390000" />
-      <workItem from="1555589699613" duration="1420000" />
+      <workItem from="1555589699613" duration="2643000" />
+      <workItem from="1555649761087" duration="15093000" />
+      <workItem from="1555666694168" duration="6097000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="91600000" />
+    <option name="totallyTimeSpent" value="114013000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22121535" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15405117" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -323,11 +338,11 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32683983" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49946696" visible="true" weight="0.45670995" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49946696" visible="true" weight="0.22619048" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32900432" />
+      <window_info anchor="bottom" id="Spring" order="7" weight="0.32900432" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32900432" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50053304" side_tool="true" weight="0.31385282" />
@@ -351,7 +366,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/hello/Repository.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.0.8.RELEASE/spring-security-core-5.0.8.RELEASE.jar!/org/springframework/security/core/GrantedAuthority.class" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/test.mustache" />
     <entry file="file://$PROJECT_DIR$/files/284be1e7-fb2f-4f58-95ef-28a2c028b44a.53f8fe7a97fb8.jpg" />
@@ -367,13 +381,6 @@
     <entry file="file://$PROJECT_DIR$/files/0afa1155-131e-45b5-ad38-112f8b7e4612.2.jpg" />
     <entry file="file://$PROJECT_DIR$/files/0358d5eb-1809-4bd6-9af3-7f596eab586c.overlay.svg.png" />
     <entry file="file://$PROJECT_DIR$/files/240ee4a0-fb2c-42fe-9bb6-2a0b23ea9ba6.1280px-Crystal_language_logo.svg.png" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="470">
-          <caret line="97" column="21" selection-start-line="97" selection-start-column="21" selection-end-line="97" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/7e701f09-1797-4a40-a69b-cea823e55ebc/console.sql" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.0.5.RELEASE/spring-boot-autoconfigure-2.0.5.RELEASE.jar!/org/springframework/boot/autoconfigure/flyway/FlywayAutoConfiguration.class">
       <provider selected="true" editor-type-id="text-editor">
@@ -387,13 +394,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="642">
           <caret line="282" column="22" selection-start-line="282" selection-start-column="22" selection-end-line="282" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="55" lean-forward="true" selection-start-line="3" selection-start-column="50" selection-end-line="3" selection-end-column="59" />
         </state>
       </provider>
     </entry>
@@ -436,9 +436,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/db/migration/V1__Init_DB.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/hello/config/MailConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
+        <state relative-caret-position="71">
           <caret line="12" column="33" lean-forward="true" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -447,89 +454,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/hello/config/MvcConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="41" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/hello/config/WebSecurityConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="729">
-          <caret line="48" column="44" selection-start-line="48" selection-start-column="44" selection-end-line="48" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/hello/controller/ControllerUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/hello/controller/MainController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/hello/controller/RegistrationController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="33" column="35" selection-start-line="33" selection-start-column="35" selection-end-line="33" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#694#695#0" expanded="true" />
-            <element signature="e#731#732#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/hello/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="60" selection-start-line="60" selection-end-line="60" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/hello/domain/Role.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/hello/domain/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/hello/Repository/MessageRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+        <state relative-caret-position="187">
+          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -546,97 +474,84 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/hello/service/UserService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/userList.ftl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="74" column="79" lean-forward="true" selection-start-line="74" selection-start-column="79" selection-end-line="74" selection-end-column="79" />
+        <state relative-caret-position="374">
+          <caret line="22" column="10" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/greeting.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="10" lean-forward="true" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/hello/controller/ControllerUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/hello/Application.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/hello/controller/MainController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="44" lean-forward="true" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
+        <state relative-caret-position="31">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#293#294#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/hello/domain/Role.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/hello/domain/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="558">
+          <caret line="119" column="5" selection-start-line="119" selection-start-column="5" selection-end-line="119" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/hello/service/MailSender.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="30" lean-forward="true" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
+        <state relative-caret-position="187">
+          <caret line="11" column="28" lean-forward="true" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/main.ftl">
+    <entry file="file://$PROJECT_DIR$/src/main/java/hello/domain/Message.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="60" column="33" lean-forward="true" selection-start-line="60" selection-start-column="33" selection-end-line="60" selection-end-column="33" />
+        <state relative-caret-position="-14">
+          <caret line="7" column="7" lean-forward="true" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#Message#0;class#Message#0" />
+            <element signature="e#1313#1314#0" expanded="true" />
+            <element signature="e#1343#1344#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/greeting.ftl">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/parts/navbar.ftl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="39" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/login.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/profile.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-85">
-          <caret line="1" column="31" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/registration.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/userEdit.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/userList.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="2" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/parts/common.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="26" column="7" lean-forward="true" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/parts/login.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5">
-          <caret line="50" column="92" lean-forward="true" selection-start-line="50" selection-start-column="92" selection-end-line="50" selection-end-column="92" />
+        <state relative-caret-position="272">
+          <caret line="16" column="40" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
         </state>
       </provider>
     </entry>
@@ -654,28 +569,150 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/parts/navbar.ftl">
+    <entry file="file://$PROJECT_DIR$/src/main/java/hello/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="26" column="62" selection-start-line="26" selection-start-column="62" selection-end-line="26" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/hello/domain/Message.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="54" column="23" selection-start-line="54" selection-start-column="23" selection-end-line="54" selection-end-column="23" />
+        <state relative-caret-position="666">
+          <caret line="63" column="1" selection-start-line="63" selection-start-column="1" selection-end-line="63" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#Message#0;class#Message#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/db/migration/V1__Init_DB.sql">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="64" column="20" selection-start-line="64" selection-start-column="20" selection-end-line="64" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/main.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="42" column="54" selection-start-line="42" selection-start-column="54" selection-end-line="42" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/profile.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="10" selection-start-line="27" selection-start-column="10" selection-end-line="27" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/userEdit.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/registration.ftl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+          <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/parts/common.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="23" lean-forward="true" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/hello/domain/dto/CaptchaResponseDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="13" column="32" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#399#400#0" expanded="true" />
+            <element signature="e#446#447#0" expanded="true" />
+            <element signature="e#484#485#0" expanded="true" />
+            <element signature="e#526#527#0" expanded="true" />
+            <element signature="e#559#560#0" expanded="true" />
+            <element signature="e#616#617#0" expanded="true" />
+            <element signature="e#660#661#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/hello/config/WebSecurityConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="434">
+          <caret line="42" column="33" lean-forward="true" selection-start-line="42" selection-start-column="33" selection-end-line="42" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="38" selection-start-line="1" selection-start-column="38" selection-end-line="1" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/login.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/parts/login.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="427">
+          <caret line="65" column="64" selection-start-line="65" selection-start-column="64" selection-end-line="65" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/hello/config/MvcConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#667#668#0" expanded="true" />
+            <element signature="e#708#709#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/hello/controller/RegistrationController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="72" selection-start-line="72" selection-end-line="72" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#activate#0;class#RegistrationController#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/hello/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="50" column="5" lean-forward="true" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2380#2381#0" expanded="true" />
+            <element signature="e#2427#2428#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/hello/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#231#232#0" expanded="true" />
+            <element signature="e#293#294#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
