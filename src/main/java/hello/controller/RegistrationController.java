@@ -21,7 +21,6 @@ import java.util.Map;
 
 @Controller
 public class RegistrationController {
-//    private static final String CAPTCHA_URL = "https://www.google.com/recaptcha/api/siteverify?secter=%response=%s";
     private final static String CAPTCHA_URL = "https://www.google.com/recaptcha/api/siteverify?secret=%s&response=%s";
 
 
@@ -40,13 +39,7 @@ public class RegistrationController {
     }
 
     @PostMapping("/registration")
-    public String addUser(
-            @RequestParam("password2") String passwordConfirm,
-            @RequestParam("g-recaptcha-response") String captchaResponse,
-            @Valid User user,
-            BindingResult bindingResult,
-            Model model
-    ) {
+    public String addUser(@RequestParam("password2") String passwordConfirm, @RequestParam("g-recaptcha-response") String captchaResponse, @Valid User user, BindingResult bindingResult, Model model) {
         String url = String.format(CAPTCHA_URL, secret, captchaResponse);
         CaptchaResponseDto response = restTemplate.postForObject(url, Collections.emptyList(), CaptchaResponseDto.class);
 
@@ -62,6 +55,8 @@ public class RegistrationController {
 
         if (user.getPassword() != null && !user.getPassword().equals(passwordConfirm)) {
             model.addAttribute("passwordError", "Passwords are different!");
+            model.addAttribute("password2Error", "Passwords are different!");
+            return "registration";
         }
 
         if (isConfirmEmpty || bindingResult.hasErrors() || !response.isSuccess()) {
