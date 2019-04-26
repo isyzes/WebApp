@@ -14,6 +14,7 @@ create table user (
   id bigint not null,
   activation_code varchar(255),
   active bit not null,
+  locked bit not null,
   email varchar(255),
   password varchar(255) not null,
   username varchar(255) not null,
